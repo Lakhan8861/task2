@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .product-card {
+    flex: 1 1 calc(33.333% - 40px);
+    box-sizing: border-box;
+  }
+  
+  .product-detail {
+    padding: 20px;
+  }
